@@ -1,5 +1,5 @@
 export class Model {
-    user;
+    user; 
     items;
     constructor() {
         this.user = "Çınar";
