@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'; 
 import { Model } from './model';
 
 @Component({
@@ -13,6 +13,6 @@ export class AppComponent {
     return this.model.user;
   }
   getItems() {
-    return this.model.items;
+    return this.model.items.filter(item => !item.action);
   }
 }
